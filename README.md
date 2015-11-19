@@ -1,4 +1,6 @@
 # Google Maps API Polyline String Decoder
+
+[![Join the chat at https://gitter.im/mgd722/decode-google-maps-polyline](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mgd722/decode-google-maps-polyline?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 This repo contains a Python function that will convert encoded polyline strings (as returned by the Google Maps API) into a list of lat/lon pairs.  If you have arcpy, you can pass the steps object (`APIresponse['routes'][0]['legs'][0]['steps']`) to convert_to_shapefile() and it will create a polyline shapefile based on your route. 
 
 decode_polyline() is a direct port of Mapbox's [JavaScript decode function](https://github.com/mapbox/polyline/blob/master/src/polyline.js#L40-L87) which is in turn 
